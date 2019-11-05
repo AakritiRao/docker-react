@@ -1,6 +1,6 @@
 sudo: required
 services:
- -docker
+ - docker
 
 before install:
  - docker build -t aakritirao/docker-react -f Dockerfile.dev .
